@@ -1,4 +1,5 @@
 Objetivo: Criar um índice pesquisável e enriquecer os dados brutos com informações extraídas por IA.
+
 Ações:
 Utilizado o assistente de Importação de Dados no portal do Azure AI Search.
 Configurada uma Fonte de Dados (coffee-customer-data) conectada ao contêiner coffee-reviews na conta de armazenamento.
