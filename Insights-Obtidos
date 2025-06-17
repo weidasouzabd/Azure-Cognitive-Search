@@ -1,0 +1,5 @@
+O Azure AI Search simplifica o processo de criação de um motor de busca inteligente.
+As habilidades cognitivas permitem extrair informações valiosas (local, sentimento, frases-chave) de conteúdo não estruturado (texto dos documentos).
+O Knowledge Store é fundamental para persistir os dados enriquecidos, permitindo análises posteriores e a criação de outras aplicações baseadas nesses insights estruturados.
+O Search Explorer é uma ferramenta poderosa para validar rapidamente a qualidade do índice e as consultas de busca.
+A integração entre Storage Account, AI Services e AI Search forma um pipeline robusto para mineração de conhecimento.
