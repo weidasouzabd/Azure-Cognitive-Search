@@ -1,0 +1,5 @@
+Recursos Criados:
+Azure AI Search: Serviço principal para indexação e busca. (Configurado no nível Básico).
+Azure AI Services: Fornece habilidades de IA para enriquecer os dados durante a indexação. (Configurado no nível Standard S0, no mesmo local do AI Search).
+Azure Storage Account: Armazena os documentos brutos (avaliações de clientes) e o knowledge store com os dados enriquecidos. 
+(Configurado com acesso anônimo de Blob habilitado para carregar os arquivos e criar o contêiner coffee-reviews).
