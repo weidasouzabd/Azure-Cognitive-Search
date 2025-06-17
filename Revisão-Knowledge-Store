@@ -1,0 +1,9 @@
+Objetivo: Explorar os dados enriquecidos persistidos pelo skillset.
+
+Ações:
+Navegado até a conta de armazenamento e explorado o contêiner knowledge-store.
+Visualizado o arquivo objectprojection.json dentro das pastas de documentos para ver o JSON completo com todos os metadados e enriquecimentos.
+Explorado o contêiner coffee-skillset-image-projection para ver como as imagens (se houvesse) seriam armazenadas e visualizadas (embora os documentos de revisão fossem texto).
+Navegado até o Navegador de Armazenamento e visualizado a seção Tabelas.
+Explorada a tabela coffeeSkillsetKeyPhrases para ver as frases-chave extraídas pelo skillset, notando como os dados são estruturados em formato tabular, 
+similar a um banco de dados relacional, permitindo vincular informações através de chaves.
