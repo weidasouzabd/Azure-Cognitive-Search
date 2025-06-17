@@ -1,0 +1,9 @@
+**Objetivo: Testar a capacidade de busca e filtragem do índice criado.
+Ações:
+Utilizado o Search Explorer no portal do Azure AI Search para executar consultas.
+Realizadas consultas básicas para contar todos os documentos indexados.
+Realizadas consultas filtradas por:
+Localização (locations:'Chicago').
+Sentimento (sentiment:'negative').
+Observado o @search.score nos resultados para entender a relevância da busca.
+Refletido sobre a utilidade das frases-chave para entender a causa de sentimentos específicos (ex: por que uma avaliação foi negativa).
