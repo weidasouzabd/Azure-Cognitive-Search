@@ -1,0 +1,4 @@
+Objetivo: Disponibilizar os documentos de avaliação de clientes para o processo de indexação.
+Ações:
+Criado um contêiner de blob chamado coffee-reviews na conta de armazenamento.
+Arquivos das avaliações de café (.txt) foram baixados e carregados para este contêiner.
