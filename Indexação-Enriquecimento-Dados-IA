@@ -1,0 +1,15 @@
+Objetivo: Criar um índice pesquisável e enriquecer os dados brutos com informações extraídas por IA.
+Ações:
+Utilizado o assistente de Importação de Dados no portal do Azure AI Search.
+Configurada uma Fonte de Dados (coffee-customer-data) conectada ao contêiner coffee-reviews na conta de armazenamento.
+Criado um Skillset (coffee-skillset) associando o recurso de Azure AI Services e aplicando habilidades cognitivas:
+Extração de locais (localizacoes)
+Extração de frases-chave (frases-chave)
+Detecção de sentimento (sentimento)
+Geração de tags a partir de imagens (imageTags) - Embora os documentos sejam texto, a configuração foi habilitada, mostrando a capacidade de processar imagens.
+Geração de legendas a partir de imagens (imageCaption) - Similar à extração de tags.
+Habilitado OCR e mesclagem de texto para o campo merged_content.
+Configurado o salvamento dos enriquecimentos em um Knowledge Store na conta de armazenamento, criando um novo contêiner knowledge-store para projeções (documentos, páginas, imagens, etc.) e tabelas (frases-chave, entidades, etc.).
+Criado um Índice (coffee-index) definindo os campos pesquisáveis e filtráveis (conteudo, localizacoes, frases-chave, sentimento, merged_content, text, layoutText, imageTags, imageCaption). O campo chave foi definido como metadata_storage_path.
+Criado um Indexador (coffee-indexer) para automatizar o pipeline de ingestão e enriquecimento, executado uma vez. A opção de codificação Base-64 para chaves foi selecionada para eficiência.
+Monitorado o status do indexador até a conclusão bem-sucedida.
